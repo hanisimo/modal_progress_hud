@@ -1,6 +1,6 @@
-# modal_progress_hud
+# Flutter Modal Progress Indicator Package "modal_progress_hud" (Null Safety Version)
 
-A simple widget wrapper to enable modal progress HUD (a modal progress indicator, HUD = Heads Up Display)
+Flutter Modal Progress Indicator Package ( modal_progress_hud ) provides a simple widget wrapper to enable modal progress HUD (a modal progress indicator, HUD = Heads Up Display)
 
 [![pub package](https://img.shields.io/pub/v/modal_progress_hud.svg)](https://pub.dartlang.org/packages/modal_progress_hud)
 [![Build Status](https://travis-ci.org/mmcc007/modal_progress_hud.svg?branch=master)](https://travis-ci.org/mmcc007/modal_progress_hud)
@@ -8,6 +8,9 @@ A simple widget wrapper to enable modal progress HUD (a modal progress indicator
 
 Inspired by [this](https://codingwithjoe.com/flutter-how-to-build-a-modal-progress-indicator/) article.
 
+## :sparkles: What's New
+- Null Safety Support.
+- Update the package version to 0.1.4
 
 ## Demo
 
@@ -22,7 +25,7 @@ Add the package to your `pubspec.yml` file.
 
 ```yml
 dependencies:
-  modal_progress_hud: ^0.1.3
+  modal_progress_hud: ^0.1.4
 ```
 
 Next, import the library into your widget.
@@ -137,7 +140,7 @@ class _SettingsPageState extends State<SettingsPage> {
 
 Update: See this [article](https://medium.com/@nocnoc/the-secret-to-async-validation-on-flutter-forms-4b273c667c03) on Medium about async form validation
 
-See the [example application](https://github.com/mmcc007/modal_progress_hud/tree/master/example) source
+See the [example application](https://github.com/hanisimo/modal_progress_hud/tree/master/example) source
 for a complete sample app using the modal progress HUD. Included in the
 example is a method for using a form's validators while making async
 calls (see [flutter/issues/9688](https://github.com/flutter/flutter/issues/9688) for details).

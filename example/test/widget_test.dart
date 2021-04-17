@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {
-  final Finder login = find.byType(RaisedButton);
+  final Finder login = find.byType(ElevatedButton);
 
   group('Login Page', () {
     final Finder userName = find.byKey(Key('username'));
@@ -17,7 +17,7 @@ void main() {
     final secretUsername = 'username1';
     final secretPassword = 'password1';
 
-    bool isLoggedIn;
+    bool? isLoggedIn;
     final sut = MaterialApp(
       theme: ThemeData(),
       home: LoginPage(onSignIn: () => isLoggedIn = true),
